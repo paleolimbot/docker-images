@@ -17,9 +17,9 @@ jobs:
 
     - name: Build and push paleolimbot/r-debug
       run: |
-        git diff --name-only HEAD^ HEAD
-        git diff --name-only HEAD^ HEAD | grep 'r-debug/Dockerfile|github/workflow/docker-image.yml'
-        if [ $? -eq 0 ]; then
+        $MODIFIED=$(git diff --name-only HEAD^ HEAD)
+        echo $MODIFIED
+        if [ $(grep 'r-debug/Dockerfile|github/workflows/docker-image.yml') -eq 0 ]; then
           cd r-debug
           docker build . --tag paleolimbot/r-debug
           echo ${{ secrets.DOCKERHUB_PASSWORD }} | docker login -u ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
