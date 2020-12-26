@@ -23,5 +23,5 @@ RUN mkdir ~/.R && \
 # install debugit at /pkg
 RUN git clone https://github.com/DavisVaughan/debugit.git /pkg
 WORKDIR /pkg
-ENTRYPOINT ["/bin/bash"]
-CMD ["/bin/bash"]
+ENTRYPOINT [ ]
+CMD [ "/bin/bash" ]
