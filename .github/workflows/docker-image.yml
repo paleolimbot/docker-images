@@ -1,0 +1,20 @@
+name: Build and push docker images
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build and push paleolimbot/r-debug
+      run: |
+        cd r-debug
+        docker build . --tag paleolimbot/r-debug
+        echo ${{ secrets.DOCKERHUB_PASSWORD }} | docker login -u ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
+        docker push paleolimbot/r-debug
