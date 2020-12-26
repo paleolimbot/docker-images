@@ -17,6 +17,7 @@ jobs:
 
     - name: Build and push paleolimbot/r-debug
       run: |
+        git diff --name-only HEAD^ HEAD
         git diff --name-only HEAD^ HEAD | grep 'r-debug/Dockerfile|github/workflow/docker-image.yml'
         if [ $? -eq 0 ]; then
           cd r-debug
