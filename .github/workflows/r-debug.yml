@@ -3,7 +3,7 @@ name: Build and push r-debug
 on:
   push:
     branches: [ main ]
-    paths: [ r-debug ]
+    paths: [ r-debug, .github/workflows/r-debug.yml ]
 
 jobs:
 
