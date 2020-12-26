@@ -4,6 +4,8 @@ on:
   push:
     branches: [ main ]
     paths: [ r-debug, .github/workflows/r-debug.yml ]
+  schedule:   
+  - cron: "0 0 1 * *"
 
 jobs:
 
