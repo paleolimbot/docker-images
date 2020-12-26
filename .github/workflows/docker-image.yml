@@ -1,8 +1,9 @@
-name: Build and push docker images
+name: Build and push r-debug
 
 on:
   push:
     branches: [ main ]
+    paths: [ r-debug ]
 
 jobs:
 
@@ -12,18 +13,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-      with:
-        fetch-depth: 2
-
-    - name: Build and push paleolimbot/r-debug
+    - name: Build and push image
       run: |
-        $MODIFIED=$(git diff --name-only HEAD^ HEAD)
-        echo $MODIFIED
-        if [ $(grep 'r-debug/Dockerfile|github/workflows/docker-image.yml') -eq 0 ]; then
-          cd r-debug
-          docker build . --tag paleolimbot/r-debug
-          echo ${{ secrets.DOCKERHUB_PASSWORD }} | docker login -u ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
-          docker push paleolimbot/r-debug
-        else
-          echo "Skipping r-debug because r-debug/Dockerfile was not modified in this commit"
-        fi
+        cd r-debug
+        docker build . --tag paleolimbot/r-debug
+        echo ${{ secrets.DOCKERHUB_PASSWORD }} | docker login -u ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
+        docker push paleolimbot/r-debug
