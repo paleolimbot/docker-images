@@ -12,9 +12,15 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+
     - name: Build and push paleolimbot/r-debug
       run: |
-        cd r-debug
-        docker build . --tag paleolimbot/r-debug
-        echo ${{ secrets.DOCKERHUB_PASSWORD }} | docker login -u ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
-        docker push paleolimbot/r-debug
+        git diff --name-only HEAD^ HEAD | grep 'r-debug/Dockerfile'
+        if [ $? -eq 0 ]; then
+          cd r-debug
+          docker build . --tag paleolimbot/r-debug
+          echo ${{ secrets.DOCKERHUB_PASSWORD }} | docker login -u ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
+          docker push paleolimbot/r-debug
+        else
+          echo "Skipping r-debug because r-debug/Dockerfile was not modified in this commit"
+        fi
