@@ -10,6 +10,7 @@ import os
 import re
 import tarfile
 import subprocess
+import fileinput
 
 messages_quiet = False
 
@@ -177,7 +178,17 @@ if __name__ == '__main__':
         if args.files_or_urls:
             run_tool(tool_dir, args.files_or_urls)
         else:
-            inform_status('Zero files or URLs were provided.')
+            # read from stdin
+            tmp_fd, tmp = None, None
+            try:
+                tmp_fd, tmp = tempfile.mkstemp(suffix='.nc')
+                with open(tmp, 'wb') as f:
+                    shutil.copyfileobj(sys.stdin.buffer, f)
+                run_tool(tool_dir, [tmp])
+            finally:
+                if tmp is not None:
+                    os.close(tmp_fd)
+                    os.unlink(tmp)
     else:
         raise NotImplementedError(f"action '{args.action}' is not implemented")
 
