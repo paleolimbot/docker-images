@@ -20,10 +20,14 @@ RUN echo "deb http://apt.llvm.org/bullseye/ llvm-toolchain-bullseye main" \
 RUN apt-get update && apt-get install -y git r-base cmake libcurl4-openssl-dev libssl-dev
 
 RUN mkdir ~/.R &&  \
-  echo 'CXX11=clang++ -std=c++11' > ~/.R/Makevars &&  \
-  echo 'CXX14=clang++ -std=c++14' >> ~/.R/Makevars && \
-  echo 'CXX17=clang++ -std=c++17' >> ~/.R/Makevars && \
-  echo 'CXX20=clang++ -std=c++20' >> ~/.R/Makevars && \
+  echo 'CXX11=clang++' > ~/.R/Makevars &&  \
+  echo 'CXX11STD=-std=c++11' >> ~/.R/Makevars &&  \
+  echo 'CXX14=clang++' >> ~/.R/Makevars && \
+  echo 'CXX14STD=-std=c++14' >> ~/.R/Makevars &&  \
+  echo 'CXX17=clang++' >> ~/.R/Makevars && \
+  echo 'CXX17STD=-std=c++17' >> ~/.R/Makevars &&  \
+  echo 'CXX20=clang++' >> ~/.R/Makevars && \
+  echo 'CXX20STD=-std=c++20' >> ~/.R/Makevars &&  \
   echo 'CXX=clang++ -std=c++11' >> ~/.R/Makevars && \
   echo 'CC=clang' >> ~/.R/Makevars
 
