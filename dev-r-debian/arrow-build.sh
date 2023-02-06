@@ -1,4 +1,9 @@
 
+if [ -z "$NUM_PROC" ]; then
+  echo "Defaulting to --parallel=1; set NUM_PROC to use more"
+  NUM_PROC=1
+fi
+
 rm -rf $ARROW_BUILD && mkdir $ARROW_BUILD
 cd $ARROW_BUILD && \
   cmake \
@@ -26,7 +31,7 @@ cd $ARROW_BUILD && \
   -DARROW_WITH_SNAPPY=ON \
   -DARROW_WITH_ZSTD=ON \
   $ARROW_SOURCE/cpp && \
-  cmake --build . && \
+  cmake --build . --parallel=$NUM_PROC && \
   cmake --install . --prefix $ARROW_HOME
 
 R CMD INSTALL $ARROW_SOURCE/r --preclean
