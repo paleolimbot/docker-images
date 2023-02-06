@@ -49,3 +49,5 @@ RUN R -e 'pak::local_install_dev_deps(file.path(Sys.getenv("ARROW_SOURCE"), "r")
 
 # Run the build once so there's always a recent-ish Arrow build on hand
 RUN rscratch/arrow-build.sh
+
+WORKDIR /rscratch
