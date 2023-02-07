@@ -44,9 +44,8 @@ ENV ARROW_R_DEV true
 ENV LD_LIBRARY_PATH ${ARROW_HOME}/lib:${LD_LIBRARY_PATH}
 COPY arrow-build.sh /rscratch/arrow-build.sh
 
-# Install R dependencies for Arrow
-# May consider removing duckdb from this list since it takes a long time to build
-RUN R -e 'pak::local_install_dev_deps(file.path(Sys.getenv("ARROW_SOURCE"), "r"))'
+# Install (most) R dependencies for Arrow
+RUN R -e 'pak::pkg_install(setdiff(desc::desc_get_deps(file.path(Sys.getenv("ARROW_SOURCE"), "r"))$package, c("stats", "R", "duckdb")))'
 
 # Run the build once so there's always a recent-ish Arrow build on hand
 RUN /rscratch/arrow-build.sh
