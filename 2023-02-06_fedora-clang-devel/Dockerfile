@@ -10,8 +10,8 @@ RUN unzip /llvm/llvm.zip -d /llvm && \
     rm -f /llvm/llvm.zip && \
     mv /llvm/`ls /llvm` /llvm/llvm-project
 
-RUN cd /llvm/llvm-project && \
+RUN cd /llvm/llvm-project &&  \
   cmake -G Ninja -S runtimes -B build -DLLVM_ENABLE_RUNTIMES="libcxx;libcxxabi;libunwind"
-RUN cd /llvm-project/runtimes && ninja -C build cxx cxxabi unwind
-RUN cd /llvm-project/runtimes && ninja -C build check-cxx check-cxxabi check-unwind
-RUN cd /llvm-project/runtimes && ninja -C build install-cxx install-cxxabi install-unwind
+RUN cd /llvm/llvm-project && ninja -C build cxx cxxabi unwind
+RUN cd /llvm/llvm-project && ninja -C build check-cxx check-cxxabi check-unwind
+RUN cd /llvm/llvm-project && ninja -C build install-cxx install-cxxabi install-unwind
