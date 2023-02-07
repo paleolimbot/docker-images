@@ -1,0 +1,212 @@
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/TApplicationException.cpp:20:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/TApplicationException.h:23:
+[1m/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/Thrift.h:54:19: [0m[0;1;35mwarning: [0m[1m'iterator<std::forward_iterator_tag, std::pair<int, const char *>>' is deprecated [-Wdeprecated-declarations][0m
+    : public std::iterator<std::forward_iterator_tag, std::pair<int, const char*> > {
+[0;1;32m                  ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__iterator/iterator.h:24:29: [0m[0;1;30mnote: [0m'iterator<std::forward_iterator_tag, std::pair<int, const char *>>' has been explicitly marked deprecated here[0m
+struct _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX17 iterator
+[0;1;32m                            ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__config:798:41: [0m[0;1;30mnote: [0mexpanded from macro '_LIBCPP_DEPRECATED_IN_CXX17'[0m
+#    define _LIBCPP_DEPRECATED_IN_CXX17 _LIBCPP_DEPRECATED
+[0;1;32m                                        ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__config:771:49: [0m[0;1;30mnote: [0mexpanded from macro '_LIBCPP_DEPRECATED'[0m
+#      define _LIBCPP_DEPRECATED __attribute__((deprecated))
+[0;1;32m                                                ^
+[0m1 warning generated.
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/TOutput.cpp:20:
+[1m/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/Thrift.h:54:19: [0m[0;1;35mwarning: [0m[1m'iterator<std::forward_iterator_tag, std::pair<int, const char *>>' is deprecated [-Wdeprecated-declarations][0m
+    : public std::iterator<std::forward_iterator_tag, std::pair<int, const char*> > {
+[0;1;32m                  ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__iterator/iterator.h:24:29: [0m[0;1;30mnote: [0m'iterator<std::forward_iterator_tag, std::pair<int, const char *>>' has been explicitly marked deprecated here[0m
+struct _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX17 iterator
+[0;1;32m                            ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__config:798:41: [0m[0;1;30mnote: [0mexpanded from macro '_LIBCPP_DEPRECATED_IN_CXX17'[0m
+#    define _LIBCPP_DEPRECATED_IN_CXX17 _LIBCPP_DEPRECATED
+[0;1;32m                                        ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__config:771:49: [0m[0;1;30mnote: [0mexpanded from macro '_LIBCPP_DEPRECATED'[0m
+#      define _LIBCPP_DEPRECATED __attribute__((deprecated))
+[0;1;32m                                                ^
+[0m1 warning generated.
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/async/TAsyncChannel.cpp:20:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/async/TAsyncChannel.h:25:
+[1m/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/Thrift.h:54:19: [0m[0;1;35mwarning: [0m[1m'iterator<std::forward_iterator_tag, std::pair<int, const char *>>' is deprecated [-Wdeprecated-declarations][0m
+    : public std::iterator<std::forward_iterator_tag, std::pair<int, const char*> > {
+[0;1;32m                  ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__iterator/iterator.h:24:29: [0m[0;1;30mnote: [0m'iterator<std::forward_iterator_tag, std::pair<int, const char *>>' has been explicitly marked deprecated here[0m
+struct _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX17 iterator
+[0;1;32m                            ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__config:798:41: [0m[0;1;30mnote: [0mexpanded from macro '_LIBCPP_DEPRECATED_IN_CXX17'[0m
+#    define _LIBCPP_DEPRECATED_IN_CXX17 _LIBCPP_DEPRECATED
+[0;1;32m                                        ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__config:771:49: [0m[0;1;30mnote: [0mexpanded from macro '_LIBCPP_DEPRECATED'[0m
+#      define _LIBCPP_DEPRECATED __attribute__((deprecated))
+[0;1;32m                                                ^
+[0m1 warning generated.
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/async/TAsyncProtocolProcessor.cpp:20:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/async/TAsyncProtocolProcessor.h:23:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/async/TAsyncProcessor.h:23:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TProtocol.h:28:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/transport/TTransport.h:23:
+[1m/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/Thrift.h:54:19: [0m[0;1;35mwarning: [0m[1m'iterator<std::forward_iterator_tag, std::pair<int, const char *>>' is deprecated [-Wdeprecated-declarations][0m
+    : public std::iterator<std::forward_iterator_tag, std::pair<int, const char*> > {
+[0;1;32m                  ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__iterator/iterator.h:24:29: [0m[0;1;30mnote: [0m'iterator<std::forward_iterator_tag, std::pair<int, const char *>>' has been explicitly marked deprecated here[0m
+struct _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX17 iterator
+[0;1;32m                            ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__config:798:41: [0m[0;1;30mnote: [0mexpanded from macro '_LIBCPP_DEPRECATED_IN_CXX17'[0m
+#    define _LIBCPP_DEPRECATED_IN_CXX17 _LIBCPP_DEPRECATED
+[0;1;32m                                        ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__config:771:49: [0m[0;1;30mnote: [0mexpanded from macro '_LIBCPP_DEPRECATED'[0m
+#      define _LIBCPP_DEPRECATED __attribute__((deprecated))
+[0;1;32m                                                ^
+[0m1 warning generated.
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/async/TConcurrentClientSyncInfo.cpp:22:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/TApplicationException.h:23:
+[1m/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/Thrift.h:54:19: [0m[0;1;35mwarning: [0m[1m'iterator<std::forward_iterator_tag, std::pair<int, const char *>>' is deprecated [-Wdeprecated-declarations][0m
+    : public std::iterator<std::forward_iterator_tag, std::pair<int, const char*> > {
+[0;1;32m                  ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__iterator/iterator.h:24:29: [0m[0;1;30mnote: [0m'iterator<std::forward_iterator_tag, std::pair<int, const char *>>' has been explicitly marked deprecated here[0m
+struct _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX17 iterator
+[0;1;32m                            ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__config:798:41: [0m[0;1;30mnote: [0mexpanded from macro '_LIBCPP_DEPRECATED_IN_CXX17'[0m
+#    define _LIBCPP_DEPRECATED_IN_CXX17 _LIBCPP_DEPRECATED
+[0;1;32m                                        ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__config:771:49: [0m[0;1;30mnote: [0mexpanded from macro '_LIBCPP_DEPRECATED'[0m
+#      define _LIBCPP_DEPRECATED __attribute__((deprecated))
+[0;1;32m                                                ^
+[0m1 warning generated.
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/concurrency/ThreadManager.cpp:22:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/concurrency/ThreadManager.h:25:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/concurrency/ThreadFactory.h:23:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/concurrency/Thread.h:26:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/concurrency/Monitor.h:24:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/concurrency/Exception.h:24:
+[1m/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/Thrift.h:54:19: [0m[0;1;35mwarning: [0m[1m'iterator<std::forward_iterator_tag, std::pair<int, const char *>>' is deprecated [-Wdeprecated-declarations][0m
+    : public std::iterator<std::forward_iterator_tag, std::pair<int, const char*> > {
+[0;1;32m                  ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__iterator/iterator.h:24:29: [0m[0;1;30mnote: [0m'iterator<std::forward_iterator_tag, std::pair<int, const char *>>' has been explicitly marked deprecated here[0m
+struct _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX17 iterator
+[0;1;32m                            ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__config:798:41: [0m[0;1;30mnote: [0mexpanded from macro '_LIBCPP_DEPRECATED_IN_CXX17'[0m
+#    define _LIBCPP_DEPRECATED_IN_CXX17 _LIBCPP_DEPRECATED
+[0;1;32m                                        ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__config:771:49: [0m[0;1;30mnote: [0mexpanded from macro '_LIBCPP_DEPRECATED'[0m
+#      define _LIBCPP_DEPRECATED __attribute__((deprecated))
+[0;1;32m                                                ^
+[0m1 warning generated.
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/concurrency/TimerManager.cpp:20:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/concurrency/TimerManager.h:23:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/concurrency/Monitor.h:24:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/concurrency/Exception.h:24:
+[1m/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/Thrift.h:54:19: [0m[0;1;35mwarning: [0m[1m'iterator<std::forward_iterator_tag, std::pair<int, const char *>>' is deprecated [-Wdeprecated-declarations][0m
+    : public std::iterator<std::forward_iterator_tag, std::pair<int, const char*> > {
+[0;1;32m                  ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__iterator/iterator.h:24:29: [0m[0;1;30mnote: [0m'iterator<std::forward_iterator_tag, std::pair<int, const char *>>' has been explicitly marked deprecated here[0m
+struct _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX17 iterator
+[0;1;32m                            ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__config:798:41: [0m[0;1;30mnote: [0mexpanded from macro '_LIBCPP_DEPRECATED_IN_CXX17'[0m
+#    define _LIBCPP_DEPRECATED_IN_CXX17 _LIBCPP_DEPRECATED
+[0;1;32m                                        ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__config:771:49: [0m[0;1;30mnote: [0mexpanded from macro '_LIBCPP_DEPRECATED'[0m
+#      define _LIBCPP_DEPRECATED __attribute__((deprecated))
+[0;1;32m                                                ^
+[0m1 warning generated.
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/processor/PeekProcessor.cpp:20:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/processor/PeekProcessor.h:24:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/TProcessor.h:24:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TProtocol.h:28:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/transport/TTransport.h:23:
+[1m/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/Thrift.h:54:19: [0m[0;1;35mwarning: [0m[1m'iterator<std::forward_iterator_tag, std::pair<int, const char *>>' is deprecated [-Wdeprecated-declarations][0m
+    : public std::iterator<std::forward_iterator_tag, std::pair<int, const char*> > {
+[0;1;32m                  ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__iterator/iterator.h:24:29: [0m[0;1;30mnote: [0m'iterator<std::forward_iterator_tag, std::pair<int, const char *>>' has been explicitly marked deprecated here[0m
+struct _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX17 iterator
+[0;1;32m                            ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__config:798:41: [0m[0;1;30mnote: [0mexpanded from macro '_LIBCPP_DEPRECATED_IN_CXX17'[0m
+#    define _LIBCPP_DEPRECATED_IN_CXX17 _LIBCPP_DEPRECATED
+[0;1;32m                                        ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__config:771:49: [0m[0;1;30mnote: [0mexpanded from macro '_LIBCPP_DEPRECATED'[0m
+#      define _LIBCPP_DEPRECATED __attribute__((deprecated))
+[0;1;32m                                                ^
+[0m1 warning generated.
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TDebugProtocol.cpp:20:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TDebugProtocol.h:23:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TVirtualProtocol.h:23:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TProtocol.h:28:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/transport/TTransport.h:23:
+[1m/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/Thrift.h:54:19: [0m[0;1;35mwarning: [0m[1m'iterator<std::forward_iterator_tag, std::pair<int, const char *>>' is deprecated [-Wdeprecated-declarations][0m
+    : public std::iterator<std::forward_iterator_tag, std::pair<int, const char*> > {
+[0;1;32m                  ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__iterator/iterator.h:24:29: [0m[0;1;30mnote: [0m'iterator<std::forward_iterator_tag, std::pair<int, const char *>>' has been explicitly marked deprecated here[0m
+struct _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX17 iterator
+[0;1;32m                            ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__config:798:41: [0m[0;1;30mnote: [0mexpanded from macro '_LIBCPP_DEPRECATED_IN_CXX17'[0m
+#    define _LIBCPP_DEPRECATED_IN_CXX17 _LIBCPP_DEPRECATED
+[0;1;32m                                        ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__config:771:49: [0m[0;1;30mnote: [0mexpanded from macro '_LIBCPP_DEPRECATED'[0m
+#      define _LIBCPP_DEPRECATED __attribute__((deprecated))
+[0;1;32m                                                ^
+[0m1 warning generated.
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TJSONProtocol.cpp:20:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TJSONProtocol.h:23:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TVirtualProtocol.h:23:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TProtocol.h:28:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/transport/TTransport.h:23:
+[1m/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/Thrift.h:54:19: [0m[0;1;35mwarning: [0m[1m'iterator<std::forward_iterator_tag, std::pair<int, const char *>>' is deprecated [-Wdeprecated-declarations][0m
+    : public std::iterator<std::forward_iterator_tag, std::pair<int, const char*> > {
+[0;1;32m                  ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__iterator/iterator.h:24:29: [0m[0;1;30mnote: [0m'iterator<std::forward_iterator_tag, std::pair<int, const char *>>' has been explicitly marked deprecated here[0m
+struct _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX17 iterator
+[0;1;32m                            ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__config:798:41: [0m[0;1;30mnote: [0mexpanded from macro '_LIBCPP_DEPRECATED_IN_CXX17'[0m
+#    define _LIBCPP_DEPRECATED_IN_CXX17 _LIBCPP_DEPRECATED
+[0;1;32m                                        ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__config:771:49: [0m[0;1;30mnote: [0mexpanded from macro '_LIBCPP_DEPRECATED'[0m
+#      define _LIBCPP_DEPRECATED __attribute__((deprecated))
+[0;1;32m                                                ^
+[0mIn file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TJSONProtocol.cpp:20:
+[1m/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TJSONProtocol.h:248:7: [0m[0;1;35mwarning: [0m[1m'getMinSerializedSize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+  int getMinSerializedSize(TType type);
+[0;1;32m      ^
+[0m[1m/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TProtocol.h:547:15: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+  virtual int getMinSerializedSize(TType type) { 
+[0;1;32m              ^
+[0mIn file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TJSONProtocol.cpp:20:
+[1m/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TJSONProtocol.h:250:8: [0m[0;1;35mwarning: [0m[1m'checkReadBytesAvailable' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+  void checkReadBytesAvailable(TSet& set)
+[0;1;32m       ^
+[0m[1m/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TProtocol.h:558:16: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+  virtual void checkReadBytesAvailable(TSet& set)
+[0;1;32m               ^
+[0mIn file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TJSONProtocol.cpp:20:
+[1m/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TJSONProtocol.h:255:8: [0m[0;1;35mwarning: [0m[1m'checkReadBytesAvailable' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+  void checkReadBytesAvailable(TList& list)
+[0;1;32m       ^
+[0m[1m/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TProtocol.h:563:16: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+  virtual void checkReadBytesAvailable(TList& list)
+[0;1;32m               ^
+[0mIn file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TJSONProtocol.cpp:20:
+[1m/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TJSONProtocol.h:260:8: [0m[0;1;35mwarning: [0m[1m'checkReadBytesAvailable' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+  void checkReadBytesAvailable(TMap& map)
+[0;1;32m       ^
+[0m[1m/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TProtocol.h:568:16: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+  virtual void checkReadBytesAvailable(TMap& map)
+[0;1;32m               ^
+[0mIn file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TJSONProtocol.cpp:22:
+In file included from /arrow-build/boost_ep-prefix/src/boost_ep/boost/locale.hpp:20:
+In file included from /arrow-build/boost_ep-prefix/src/boost_ep/boost/locale/gnu_gettext.hpp:12:
+In file included from /arrow-build/boost_ep-prefix/src/boost_ep/boost/function.hpp:30:
+In file included from /arrow-build/boost_ep-prefix/src/boost_ep/boost/function/detail/prologue.hpp:17:
+In file included from /arrow-build/boost_ep-prefix/src/boost_ep/boost/function/function_base.hpp:21:
+In file included from /arrow-build/boost_ep-prefix/src/boost_ep/boost/type_index.hpp:29:
+In file included from /arrow-build/boost_ep-prefix/src/boost_ep/boost/type_index/stl_type_index.hpp:47:
+[1m/arrow-build/boost_ep-prefix/src/boost_ep/boost/container_hash/hash.hpp:131:33: [0m[0;1;31merror: [0m[1mno template named 'unary_function' in namespace 'std'; did you mean '__unary_function'?[0m
+        struct hash_base : std::unary_function<T, std::size_t> {};
+[0;1;32m                           ~~~~~^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__functional/unary_function.h:46:1: [0m[0;1;30mnote: [0m'__unary_function' declared here[0m
+using __unary_function = __unary_function_keep_layout_base<_Arg, _Result>;
+[0;1;32m^
+[0m5 warnings and 1 error generated.
+gmake[5]: *** [lib/cpp/CMakeFiles/thrift.dir/build.make:216: lib/cpp/CMakeFiles/thrift.dir/src/thrift/protocol/TJSONProtocol.cpp.o] Error 1
+gmake[4]: *** [CMakeFiles/Makefile2:125: lib/cpp/CMakeFiles/thrift.dir/all] Error 2
+gmake[3]: *** [Makefile:156: all] Error 2

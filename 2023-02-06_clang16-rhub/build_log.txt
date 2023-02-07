@@ -1,0 +1,216 @@
+/usr/bin/cmake -S/arrow/cpp -B/arrow-build --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /arrow-build/CMakeFiles /arrow-build//CMakeFiles/progress.marks
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+gmake[1]: Entering directory '/arrow-build'
+/usr/bin/gmake  -f CMakeFiles/boost_ep.dir/build.make CMakeFiles/boost_ep.dir/depend
+gmake[2]: Entering directory '/arrow-build'
+cd /arrow-build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /arrow/cpp /arrow/cpp /arrow-build /arrow-build /arrow-build/CMakeFiles/boost_ep.dir/DependInfo.cmake --color=
+gmake[2]: Leaving directory '/arrow-build'
+/usr/bin/gmake  -f CMakeFiles/boost_ep.dir/build.make CMakeFiles/boost_ep.dir/build
+gmake[2]: Entering directory '/arrow-build'
+[  1%] Creating directories for 'boost_ep'
+/usr/bin/cmake -E make_directory /arrow-build/boost_ep-prefix/src/boost_ep
+/usr/bin/cmake -E make_directory /arrow-build/boost_ep-prefix/src/boost_ep-build
+/usr/bin/cmake -E make_directory /arrow-build/boost_ep-prefix
+/usr/bin/cmake -E make_directory /arrow-build/boost_ep-prefix/tmp
+/usr/bin/cmake -E make_directory /arrow-build/boost_ep-prefix/src/boost_ep-stamp
+/usr/bin/cmake -E make_directory /arrow-build/boost_ep-prefix/src
+/usr/bin/cmake -E make_directory /arrow-build/boost_ep-prefix/src/boost_ep-stamp
+/usr/bin/cmake -E touch /arrow-build/boost_ep-prefix/src/boost_ep-stamp/boost_ep-mkdir
+[  1%] Performing download step (download, verify and extract) for 'boost_ep'
+cd /arrow-build/boost_ep-prefix/src && /usr/bin/cmake -P /arrow-build/boost_ep-prefix/src/boost_ep-stamp/boost_ep-download-RELEASE.cmake
+-- boost_ep download command succeeded.  See also /arrow-build/boost_ep-prefix/src/boost_ep-stamp/boost_ep-download-*.log
+cd /arrow-build/boost_ep-prefix/src && /usr/bin/cmake -E touch /arrow-build/boost_ep-prefix/src/boost_ep-stamp/boost_ep-download
+[  1%] No update step for 'boost_ep'
+/usr/bin/cmake -E echo_append
+/usr/bin/cmake -E touch /arrow-build/boost_ep-prefix/src/boost_ep-stamp/boost_ep-update
+[  1%] No patch step for 'boost_ep'
+/usr/bin/cmake -E echo_append
+/usr/bin/cmake -E touch /arrow-build/boost_ep-prefix/src/boost_ep-stamp/boost_ep-patch
+[  1%] No configure step for 'boost_ep'
+cd /arrow-build/boost_ep-prefix/src/boost_ep-build && /usr/bin/cmake -E echo_append
+cd /arrow-build/boost_ep-prefix/src/boost_ep-build && /usr/bin/cmake -E touch /arrow-build/boost_ep-prefix/src/boost_ep-stamp/boost_ep-configure
+[  2%] No build step for 'boost_ep'
+cd /arrow-build/boost_ep-prefix/src/boost_ep-build && /usr/bin/cmake -E echo_append
+cd /arrow-build/boost_ep-prefix/src/boost_ep-build && /usr/bin/cmake -E touch /arrow-build/boost_ep-prefix/src/boost_ep-stamp/boost_ep-build
+[  2%] No install step for 'boost_ep'
+cd /arrow-build/boost_ep-prefix/src/boost_ep-build && /usr/bin/cmake -E echo_append
+cd /arrow-build/boost_ep-prefix/src/boost_ep-build && /usr/bin/cmake -E touch /arrow-build/boost_ep-prefix/src/boost_ep-stamp/boost_ep-install
+[  2%] Completed 'boost_ep'
+/usr/bin/cmake -E make_directory /arrow-build/CMakeFiles
+/usr/bin/cmake -E touch /arrow-build/CMakeFiles/boost_ep-complete
+/usr/bin/cmake -E touch /arrow-build/boost_ep-prefix/src/boost_ep-stamp/boost_ep-done
+gmake[2]: Leaving directory '/arrow-build'
+[  2%] Built target boost_ep
+/usr/bin/gmake  -f CMakeFiles/thrift_ep.dir/build.make CMakeFiles/thrift_ep.dir/depend
+gmake[2]: Entering directory '/arrow-build'
+cd /arrow-build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /arrow/cpp /arrow/cpp /arrow-build /arrow-build /arrow-build/CMakeFiles/thrift_ep.dir/DependInfo.cmake --color=
+gmake[2]: Leaving directory '/arrow-build'
+/usr/bin/gmake  -f CMakeFiles/thrift_ep.dir/build.make CMakeFiles/thrift_ep.dir/build
+gmake[2]: Entering directory '/arrow-build'
+[  2%] Creating directories for 'thrift_ep'
+/usr/bin/cmake -E make_directory /arrow-build/thrift_ep-prefix/src/thrift_ep
+/usr/bin/cmake -E make_directory /arrow-build/thrift_ep-prefix/src/thrift_ep-build
+/usr/bin/cmake -E make_directory /arrow-build/thrift_ep-prefix
+/usr/bin/cmake -E make_directory /arrow-build/thrift_ep-prefix/tmp
+/usr/bin/cmake -E make_directory /arrow-build/thrift_ep-prefix/src/thrift_ep-stamp
+/usr/bin/cmake -E make_directory /arrow-build/thrift_ep-prefix/src
+/usr/bin/cmake -E make_directory /arrow-build/thrift_ep-prefix/src/thrift_ep-stamp
+/usr/bin/cmake -E touch /arrow-build/thrift_ep-prefix/src/thrift_ep-stamp/thrift_ep-mkdir
+[  2%] Performing download step (download, verify and extract) for 'thrift_ep'
+cd /arrow-build/thrift_ep-prefix/src && /usr/bin/cmake -P /arrow-build/thrift_ep-prefix/src/thrift_ep-stamp/thrift_ep-download-RELEASE.cmake
+-- thrift_ep download command succeeded.  See also /arrow-build/thrift_ep-prefix/src/thrift_ep-stamp/thrift_ep-download-*.log
+cd /arrow-build/thrift_ep-prefix/src && /usr/bin/cmake -E touch /arrow-build/thrift_ep-prefix/src/thrift_ep-stamp/thrift_ep-download
+[  3%] No update step for 'thrift_ep'
+/usr/bin/cmake -E echo_append
+/usr/bin/cmake -E touch /arrow-build/thrift_ep-prefix/src/thrift_ep-stamp/thrift_ep-update
+[  3%] No patch step for 'thrift_ep'
+/usr/bin/cmake -E echo_append
+/usr/bin/cmake -E touch /arrow-build/thrift_ep-prefix/src/thrift_ep-stamp/thrift_ep-patch
+[  3%] Performing configure step for 'thrift_ep'
+cd /arrow-build/thrift_ep-prefix/src/thrift_ep-build && /usr/bin/cmake -P /arrow-build/thrift_ep-prefix/src/thrift_ep-stamp/thrift_ep-configure-RELEASE.cmake
+-- thrift_ep configure command succeeded.  See also /arrow-build/thrift_ep-prefix/src/thrift_ep-stamp/thrift_ep-configure-*.log
+cd /arrow-build/thrift_ep-prefix/src/thrift_ep-build && /usr/bin/cmake -E touch /arrow-build/thrift_ep-prefix/src/thrift_ep-stamp/thrift_ep-configure
+[  3%] Performing build step for 'thrift_ep'
+cd /arrow-build/thrift_ep-prefix/src/thrift_ep-build && /usr/bin/cmake -Dmake=/usr/bin/gmake -P /arrow-build/thrift_ep-prefix/src/thrift_ep-stamp/thrift_ep-build-RELEASE.cmake
+-- stdout output is:
+...skipping to end...
+ApplicationException.cpp.o -MF CMakeFiles/thrift.dir/src/thrift/TApplicationException.cpp.o.d -o CMakeFiles/thrift.dir/src/thrift/TApplicationException.cpp.o -c /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/TApplicationException.cpp
+[  4%] Building CXX object lib/cpp/CMakeFiles/thrift.dir/src/thrift/TOutput.cpp.o
+cd /arrow-build/thrift_ep-prefix/src/thrift_ep-build/lib/cpp && /usr/bin/clang++-16 -DBOOST_ALL_DYN_LINK -DBOOST_TEST_DYN_LINK -DTHRIFT_STATIC_DEFINE -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/arrow-build/thrift_ep-prefix/src/thrift_ep-build/lib/cpp -I/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp -I/arrow-build/thrift_ep-prefix/src/thrift_ep-build -I/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src -isystem /arrow-build/boost_ep-prefix/src/boost_ep -stdlib=libc++ -Qunused-arguments -fcolor-diagnostics -fPIC -Wno-deprecated-register -O3 -DNDEBUG -O2 -MD -MT lib/cpp/CMakeFiles/thrift.dir/src/thrift/TOutput.cpp.o -MF CMakeFiles/thrift.dir/src/thrift/TOutput.cpp.o.d -o CMakeFiles/thrift.dir/src/thrift/TOutput.cpp.o -c /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/TOutput.cpp
+[  6%] Building CXX object lib/cpp/CMakeFiles/thrift.dir/src/thrift/async/TAsyncChannel.cpp.o
+cd /arrow-build/thrift_ep-prefix/src/thrift_ep-build/lib/cpp && /usr/bin/clang++-16 -DBOOST_ALL_DYN_LINK -DBOOST_TEST_DYN_LINK -DTHRIFT_STATIC_DEFINE -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/arrow-build/thrift_ep-prefix/src/thrift_ep-build/lib/cpp -I/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp -I/arrow-build/thrift_ep-prefix/src/thrift_ep-build -I/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src -isystem /arrow-build/boost_ep-prefix/src/boost_ep -stdlib=libc++ -Qunused-arguments -fcolor-diagnostics -fPIC -Wno-deprecated-register -O3 -DNDEBUG -O2 -MD -MT lib/cpp/CMakeFiles/thrift.dir/src/thrift/async/TAsyncChannel.cpp.o -MF CMakeFiles/thrift.dir/src/thrift/async/TAsyncChannel.cpp.o.d -o CMakeFiles/thrift.dir/src/thrift/async/TAsyncChannel.cpp.o -c /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/async/TAsyncChannel.cpp
+[  9%] Building CXX object lib/cpp/CMakeFiles/thrift.dir/src/thrift/async/TAsyncProtocolProcessor.cpp.o
+cd /arrow-build/thrift_ep-prefix/src/thrift_ep-build/lib/cpp && /usr/bin/clang++-16 -DBOOST_ALL_DYN_LINK -DBOOST_TEST_DYN_LINK -DTHRIFT_STATIC_DEFINE -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/arrow-build/thrift_ep-prefix/src/thrift_ep-build/lib/cpp -I/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp -I/arrow-build/thrift_ep-prefix/src/thrift_ep-build -I/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src -isystem /arrow-build/boost_ep-prefix/src/boost_ep -stdlib=libc++ -Qunused-arguments -fcolor-diagnostics -fPIC -Wno-deprecated-register -O3 -DNDEBUG -O2 -MD -MT lib/cpp/CMakeFiles/thrift.dir/src/thrift/async/TAsyncProtocolProcessor.cpp.o -MF CMakeFiles/thrift.dir/src/thrift/async/TAsyncProtocolProcessor.cpp.o.d -o CMakeFiles/thrift.dir/src/thrift/async/TAsyncProtocolProcessor.cpp.o -c /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/async/TAsyncProtocolProcessor.cpp
+[ 11%] Building CXX object lib/cpp/CMakeFiles/thrift.dir/src/thrift/async/TConcurrentClientSyncInfo.cpp.o
+cd /arrow-build/thrift_ep-prefix/src/thrift_ep-build/lib/cpp && /usr/bin/clang++-16 -DBOOST_ALL_DYN_LINK -DBOOST_TEST_DYN_LINK -DTHRIFT_STATIC_DEFINE -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/arrow-build/thrift_ep-prefix/src/thrift_ep-build/lib/cpp -I/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp -I/arrow-build/thrift_ep-prefix/src/thrift_ep-build -I/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src -isystem /arrow-build/boost_ep-prefix/src/boost_ep -stdlib=libc++ -Qunused-arguments -fcolor-diagnostics -fPIC -Wno-deprecated-register -O3 -DNDEBUG -O2 -MD -MT lib/cpp/CMakeFiles/thrift.dir/src/thrift/async/TConcurrentClientSyncInfo.cpp.o -MF CMakeFiles/thrift.dir/src/thrift/async/TConcurrentClientSyncInfo.cpp.o.d -o CMakeFiles/thrift.dir/src/thrift/async/TConcurrentClientSyncInfo.cpp.o -c /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/async/TConcurrentClientSyncInfo.cpp
+[ 13%] Building CXX object lib/cpp/CMakeFiles/thrift.dir/src/thrift/concurrency/ThreadManager.cpp.o
+cd /arrow-build/thrift_ep-prefix/src/thrift_ep-build/lib/cpp && /usr/bin/clang++-16 -DBOOST_ALL_DYN_LINK -DBOOST_TEST_DYN_LINK -DTHRIFT_STATIC_DEFINE -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/arrow-build/thrift_ep-prefix/src/thrift_ep-build/lib/cpp -I/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp -I/arrow-build/thrift_ep-prefix/src/thrift_ep-build -I/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src -isystem /arrow-build/boost_ep-prefix/src/boost_ep -stdlib=libc++ -Qunused-arguments -fcolor-diagnostics -fPIC -Wno-deprecated-register -O3 -DNDEBUG -O2 -MD -MT lib/cpp/CMakeFiles/thrift.dir/src/thrift/concurrency/ThreadManager.cpp.o -MF CMakeFiles/thrift.dir/src/thrift/concurrency/ThreadManager.cpp.o.d -o CMakeFiles/thrift.dir/src/thrift/concurrency/ThreadManager.cpp.o -c /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/concurrency/ThreadManager.cpp
+[ 16%] Building CXX object lib/cpp/CMakeFiles/thrift.dir/src/thrift/concurrency/TimerManager.cpp.o
+cd /arrow-build/thrift_ep-prefix/src/thrift_ep-build/lib/cpp && /usr/bin/clang++-16 -DBOOST_ALL_DYN_LINK -DBOOST_TEST_DYN_LINK -DTHRIFT_STATIC_DEFINE -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/arrow-build/thrift_ep-prefix/src/thrift_ep-build/lib/cpp -I/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp -I/arrow-build/thrift_ep-prefix/src/thrift_ep-build -I/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src -isystem /arrow-build/boost_ep-prefix/src/boost_ep -stdlib=libc++ -Qunused-arguments -fcolor-diagnostics -fPIC -Wno-deprecated-register -O3 -DNDEBUG -O2 -MD -MT lib/cpp/CMakeFiles/thrift.dir/src/thrift/concurrency/TimerManager.cpp.o -MF CMakeFiles/thrift.dir/src/thrift/concurrency/TimerManager.cpp.o.d -o CMakeFiles/thrift.dir/src/thrift/concurrency/TimerManager.cpp.o -c /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/concurrency/TimerManager.cpp
+[ 18%] Building CXX object lib/cpp/CMakeFiles/thrift.dir/src/thrift/processor/PeekProcessor.cpp.o
+cd /arrow-build/thrift_ep-prefix/src/thrift_ep-build/lib/cpp && /usr/bin/clang++-16 -DBOOST_ALL_DYN_LINK -DBOOST_TEST_DYN_LINK -DTHRIFT_STATIC_DEFINE -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/arrow-build/thrift_ep-prefix/src/thrift_ep-build/lib/cpp -I/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp -I/arrow-build/thrift_ep-prefix/src/thrift_ep-build -I/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src -isystem /arrow-build/boost_ep-prefix/src/boost_ep -stdlib=libc++ -Qunused-arguments -fcolor-diagnostics -fPIC -Wno-deprecated-register -O3 -DNDEBUG -O2 -MD -MT lib/cpp/CMakeFiles/thrift.dir/src/thrift/processor/PeekProcessor.cpp.o -MF CMakeFiles/thrift.dir/src/thrift/processor/PeekProcessor.cpp.o.d -o CMakeFiles/thrift.dir/src/thrift/processor/PeekProcessor.cpp.o -c /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/processor/PeekProcessor.cpp
+[ 20%] Building CXX object lib/cpp/CMakeFiles/thrift.dir/src/thrift/protocol/TBase64Utils.cpp.o
+cd /arrow-build/thrift_ep-prefix/src/thrift_ep-build/lib/cpp && /usr/bin/clang++-16 -DBOOST_ALL_DYN_LINK -DBOOST_TEST_DYN_LINK -DTHRIFT_STATIC_DEFINE -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/arrow-build/thrift_ep-prefix/src/thrift_ep-build/lib/cpp -I/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp -I/arrow-build/thrift_ep-prefix/src/thrift_ep-build -I/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src -isystem /arrow-build/boost_ep-prefix/src/boost_ep -stdlib=libc++ -Qunused-arguments -fcolor-diagnostics -fPIC -Wno-deprecated-register -O3 -DNDEBUG -O2 -MD -MT lib/cpp/CMakeFiles/thrift.dir/src/thrift/protocol/TBase64Utils.cpp.o -MF CMakeFiles/thrift.dir/src/thrift/protocol/TBase64Utils.cpp.o.d -o CMakeFiles/thrift.dir/src/thrift/protocol/TBase64Utils.cpp.o -c /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TBase64Utils.cpp
+[ 23%] Building CXX object lib/cpp/CMakeFiles/thrift.dir/src/thrift/protocol/TDebugProtocol.cpp.o
+cd /arrow-build/thrift_ep-prefix/src/thrift_ep-build/lib/cpp && /usr/bin/clang++-16 -DBOOST_ALL_DYN_LINK -DBOOST_TEST_DYN_LINK -DTHRIFT_STATIC_DEFINE -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/arrow-build/thrift_ep-prefix/src/thrift_ep-build/lib/cpp -I/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp -I/arrow-build/thrift_ep-prefix/src/thrift_ep-build -I/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src -isystem /arrow-build/boost_ep-prefix/src/boost_ep -stdlib=libc++ -Qunused-arguments -fcolor-diagnostics -fPIC -Wno-deprecated-register -O3 -DNDEBUG -O2 -MD -MT lib/cpp/CMakeFiles/thrift.dir/src/thrift/protocol/TDebugProtocol.cpp.o -MF CMakeFiles/thrift.dir/src/thrift/protocol/TDebugProtocol.cpp.o.d -o CMakeFiles/thrift.dir/src/thrift/protocol/TDebugProtocol.cpp.o -c /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TDebugProtocol.cpp
+[ 25%] Building CXX object lib/cpp/CMakeFiles/thrift.dir/src/thrift/protocol/TJSONProtocol.cpp.o
+cd /arrow-build/thrift_ep-prefix/src/thrift_ep-build/lib/cpp && /usr/bin/clang++-16 -DBOOST_ALL_DYN_LINK -DBOOST_TEST_DYN_LINK -DTHRIFT_STATIC_DEFINE -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/arrow-build/thrift_ep-prefix/src/thrift_ep-build/lib/cpp -I/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp -I/arrow-build/thrift_ep-prefix/src/thrift_ep-build -I/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src -isystem /arrow-build/boost_ep-prefix/src/boost_ep -stdlib=libc++ -Qunused-arguments -fcolor-diagnostics -fPIC -Wno-deprecated-register -O3 -DNDEBUG -O2 -MD -MT lib/cpp/CMakeFiles/thrift.dir/src/thrift/protocol/TJSONProtocol.cpp.o -MF CMakeFiles/thrift.dir/src/thrift/protocol/TJSONProtocol.cpp.o.d -o CMakeFiles/thrift.dir/src/thrift/protocol/TJSONProtocol.cpp.o -c /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TJSONProtocol.cpp
+gmake[5]: Leaving directory '/arrow-build/thrift_ep-prefix/src/thrift_ep-build'
+gmake[4]: Leaving directory '/arrow-build/thrift_ep-prefix/src/thrift_ep-build'
+gmake[3]: Leaving directory '/arrow-build/thrift_ep-prefix/src/thrift_ep-build'
+
+-- stderr output is:
+...skipping to end...
+nt, const char *>>' has been explicitly marked deprecated here[0m
+struct _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX17 iterator
+[0;1;32m                            ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__config:798:41: [0m[0;1;30mnote: [0mexpanded from macro '_LIBCPP_DEPRECATED_IN_CXX17'[0m
+#    define _LIBCPP_DEPRECATED_IN_CXX17 _LIBCPP_DEPRECATED
+[0;1;32m                                        ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__config:771:49: [0m[0;1;30mnote: [0mexpanded from macro '_LIBCPP_DEPRECATED'[0m
+#      define _LIBCPP_DEPRECATED __attribute__((deprecated))
+[0;1;32m                                                ^
+[0m1 warning generated.
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/processor/PeekProcessor.cpp:20:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/processor/PeekProcessor.h:24:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/TProcessor.h:24:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TProtocol.h:28:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/transport/TTransport.h:23:
+[1m/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/Thrift.h:54:19: [0m[0;1;35mwarning: [0m[1m'iterator<std::forward_iterator_tag, std::pair<int, const char *>>' is deprecated [-Wdeprecated-declarations][0m
+    : public std::iterator<std::forward_iterator_tag, std::pair<int, const char*> > {
+[0;1;32m                  ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__iterator/iterator.h:24:29: [0m[0;1;30mnote: [0m'iterator<std::forward_iterator_tag, std::pair<int, const char *>>' has been explicitly marked deprecated here[0m
+struct _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX17 iterator
+[0;1;32m                            ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__config:798:41: [0m[0;1;30mnote: [0mexpanded from macro '_LIBCPP_DEPRECATED_IN_CXX17'[0m
+#    define _LIBCPP_DEPRECATED_IN_CXX17 _LIBCPP_DEPRECATED
+[0;1;32m                                        ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__config:771:49: [0m[0;1;30mnote: [0mexpanded from macro '_LIBCPP_DEPRECATED'[0m
+#      define _LIBCPP_DEPRECATED __attribute__((deprecated))
+[0;1;32m                                                ^
+[0m1 warning generated.
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TDebugProtocol.cpp:20:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TDebugProtocol.h:23:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TVirtualProtocol.h:23:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TProtocol.h:28:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/transport/TTransport.h:23:
+[1m/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/Thrift.h:54:19: [0m[0;1;35mwarning: [0m[1m'iterator<std::forward_iterator_tag, std::pair<int, const char *>>' is deprecated [-Wdeprecated-declarations][0m
+    : public std::iterator<std::forward_iterator_tag, std::pair<int, const char*> > {
+[0;1;32m                  ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__iterator/iterator.h:24:29: [0m[0;1;30mnote: [0m'iterator<std::forward_iterator_tag, std::pair<int, const char *>>' has been explicitly marked deprecated here[0m
+struct _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX17 iterator
+[0;1;32m                            ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__config:798:41: [0m[0;1;30mnote: [0mexpanded from macro '_LIBCPP_DEPRECATED_IN_CXX17'[0m
+#    define _LIBCPP_DEPRECATED_IN_CXX17 _LIBCPP_DEPRECATED
+[0;1;32m                                        ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__config:771:49: [0m[0;1;30mnote: [0mexpanded from macro '_LIBCPP_DEPRECATED'[0m
+#      define _LIBCPP_DEPRECATED __attribute__((deprecated))
+[0;1;32m                                                ^
+[0m1 warning generated.
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TJSONProtocol.cpp:20:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TJSONProtocol.h:23:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TVirtualProtocol.h:23:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TProtocol.h:28:
+In file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/transport/TTransport.h:23:
+[1m/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/Thrift.h:54:19: [0m[0;1;35mwarning: [0m[1m'iterator<std::forward_iterator_tag, std::pair<int, const char *>>' is deprecated [-Wdeprecated-declarations][0m
+    : public std::iterator<std::forward_iterator_tag, std::pair<int, const char*> > {
+[0;1;32m                  ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__iterator/iterator.h:24:29: [0m[0;1;30mnote: [0m'iterator<std::forward_iterator_tag, std::pair<int, const char *>>' has been explicitly marked deprecated here[0m
+struct _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX17 iterator
+[0;1;32m                            ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__config:798:41: [0m[0;1;30mnote: [0mexpanded from macro '_LIBCPP_DEPRECATED_IN_CXX17'[0m
+#    define _LIBCPP_DEPRECATED_IN_CXX17 _LIBCPP_DEPRECATED
+[0;1;32m                                        ^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__config:771:49: [0m[0;1;30mnote: [0mexpanded from macro '_LIBCPP_DEPRECATED'[0m
+#      define _LIBCPP_DEPRECATED __attribute__((deprecated))
+[0;1;32m                                                ^
+[0mIn file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TJSONProtocol.cpp:20:
+[1m/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TJSONProtocol.h:248:7: [0m[0;1;35mwarning: [0m[1m'getMinSerializedSize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+  int getMinSerializedSize(TType type);
+[0;1;32m      ^
+[0m[1m/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TProtocol.h:547:15: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+  virtual int getMinSerializedSize(TType type) { 
+[0;1;32m              ^
+[0mIn file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TJSONProtocol.cpp:20:
+[1m/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TJSONProtocol.h:250:8: [0m[0;1;35mwarning: [0m[1m'checkReadBytesAvailable' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+  void checkReadBytesAvailable(TSet& set)
+[0;1;32m       ^
+[0m[1m/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TProtocol.h:558:16: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+  virtual void checkReadBytesAvailable(TSet& set)
+[0;1;32m               ^
+[0mIn file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TJSONProtocol.cpp:20:
+[1m/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TJSONProtocol.h:255:8: [0m[0;1;35mwarning: [0m[1m'checkReadBytesAvailable' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+  void checkReadBytesAvailable(TList& list)
+[0;1;32m       ^
+[0m[1m/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TProtocol.h:563:16: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+  virtual void checkReadBytesAvailable(TList& list)
+[0;1;32m               ^
+[0mIn file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TJSONProtocol.cpp:20:
+[1m/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TJSONProtocol.h:260:8: [0m[0;1;35mwarning: [0m[1m'checkReadBytesAvailable' overrides a member function but is not marked 'override' [-Winconsistent-missing-override][0m
+  void checkReadBytesAvailable(TMap& map)
+[0;1;32m       ^
+[0m[1m/arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TProtocol.h:568:16: [0m[0;1;30mnote: [0moverridden virtual function is here[0m
+  virtual void checkReadBytesAvailable(TMap& map)
+[0;1;32m               ^
+[0mIn file included from /arrow-build/thrift_ep-prefix/src/thrift_ep/lib/cpp/src/thrift/protocol/TJSONProtocol.cpp:22:
+In file included from /arrow-build/boost_ep-prefix/src/boost_ep/boost/locale.hpp:20:
+In file included from /arrow-build/boost_ep-prefix/src/boost_ep/boost/locale/gnu_gettext.hpp:12:
+In file included from /arrow-build/boost_ep-prefix/src/boost_ep/boost/function.hpp:30:
+In file included from /arrow-build/boost_ep-prefix/src/boost_ep/boost/function/detail/prologue.hpp:17:
+In file included from /arrow-build/boost_ep-prefix/src/boost_ep/boost/function/function_base.hpp:21:
+In file included from /arrow-build/boost_ep-prefix/src/boost_ep/boost/type_index.hpp:29:
+In file included from /arrow-build/boost_ep-prefix/src/boost_ep/boost/type_index/stl_type_index.hpp:47:
+[1m/arrow-build/boost_ep-prefix/src/boost_ep/boost/container_hash/hash.hpp:131:33: [0m[0;1;31merror: [0m[1mno template named 'unary_function' in namespace 'std'; did you mean '__unary_function'?[0m
+        struct hash_base : std::unary_function<T, std::size_t> {};
+[0;1;32m                           ~~~~~^
+[0m[1m/usr/lib/llvm-16/bin/../include/c++/v1/__functional/unary_function.h:46:1: [0m[0;1;30mnote: [0m'__unary_function' declared here[0m
+using __unary_function = __unary_function_keep_layout_base<_Arg, _Result>;
+[0;1;32m^
+[0m5 warnings and 1 error generated.
+gmake[5]: *** [lib/cpp/CMakeFiles/thrift.dir/build.make:216: lib/cpp/CMakeFiles/thrift.dir/src/thrift/protocol/TJSONProtocol.cpp.o] Error 1
+gmake[4]: *** [CMakeFiles/Makefile2:125: lib/cpp/CMakeFiles/thrift.dir/all] Error 2
+gmake[3]: *** [Makefile:156: all] Error 2
+
+gmake[2]: Leaving directory '/arrow-build'
+gmake[1]: Leaving directory '/arrow-build'
