@@ -21,15 +21,10 @@ RUN cd /arrow && \
   git cherry-pick ddc5c78dd722eb8068a9eae9ce5ae07c954ae2e3 && \
   git cherry-pick a934a4806e3d7972cc9b42f737615369ba1599c0
 
-RUN mkdir /arrow-build && \
-  cd /arrow-build && \
-  cmake /arrow/cpp \
-  -DCMAKE_C_COMPILER="clang-16"  -DCMAKE_CXX_COMPILER="clang++-16" \
-  -DCMAKE_CXX_FLAGS="-stdlib=libc++" \
-  -DARROW_CSV=ON -DARROW_DATASET=ON -DARROW_FILESYSTEM=ON \
-  -DARROW_COMPUTE=ON -DARROW_PARQUET=ON -DBoost_SOURCE=BUNDLED
-
-# Pass even if the build fails so that we can copy error logs from /arrow-build
+RUN apt-get install -y rsync
+RUN cd /arrow/r && make sync-cpp && cd .. && R CMD build r
+RUN R -e 'install.packages("pak")' && R -e "pak::local_install_deps('/arrow/r')"
 ENV VERBOSE 1
-RUN cd /arrow-build && cmake --build . > /build_log.txt || true
-RUN cp /arrow-build/thrift_ep-prefix/src/thrift_ep-stamp/thrift_ep-build-*.log / || true
+ENV ARROW_R_DEV true
+RUN R CMD INSTALL /arrow/arrow_11.0.0.tar.gz
+RUN R -e 'library(arrow)'
