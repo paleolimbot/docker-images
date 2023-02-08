@@ -5,7 +5,7 @@ ENV TZ=America/Halifax
 RUN apt-get update && \
     apt-get install -y \
     # General development tools
-    locales gdb gcc g++ valgrind r-base cmake git \
+    locales gdb gcc g++ valgrind r-base cmake git python3-pip \
     # Needed for tidyverse + devtools install
     libxml2-dev libcurl4-openssl-dev libssl-dev libgit2-dev libfontconfig1-dev libfreetype6-dev libharfbuzz-dev libfribidi-dev libpng-dev libtiff5-dev libjpeg-dev
 
@@ -26,6 +26,9 @@ RUN mkdir ~/.R && echo 'MAKEVARS = -j${NUM_PROC}' > ~/.R/Makevars
 # Install a bunch of R packages
 RUN R -e 'install.packages("pak")'
 RUN R -e 'pak::pkg_install(c("tidyverse", "devtools", "nycflights13"), dependencies = TRUE)'
+
+# Install a bunch of Python packages
+RUN pip3 install pyarrow jupyter
 
 # dev setup
 RUN mkdir /rscratch
